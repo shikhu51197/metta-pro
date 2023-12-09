@@ -94,6 +94,7 @@ Click on the "Show More Details" button to view additional information about the
 
 ## ✨Step 9 - Search Again:
 Perform multiple searches by entering different currency codes or names and repeating the process.
+
 ---
 # 🧑‍💻Implemented 
 🔍Search by Currency Code or Name: Enter a currency code (e.g., SEK) or a currency name (e.g., Euro) to find countries associated with that currency.
