@@ -70,52 +70,50 @@
 Discover countries associated with specific currencies using our intuitive Currency to Country Search Web App.
 Explore and discover countries associated with specific currencies with our Currency to Country Search Web App. This user-friendly application allows you to seamlessly search for information about countries using either a currency code or name. Designed with simplicity and functionality in mind, it provides a visually appealing interface to access relevant details about countries worldwide.
 
-## 🚀 Getting Started
+# 🚀 Getting Started
 
-## ✨Step 1: Clone the Repository
-Clone the project repository to your local machine using the following command:
+## ✨Step 1 - 💫Clone the Repository: Use the provided repository URL to clone the project to your local machine.
 
-# 🧑‍💻git clone <repository-url>
+## ✨Step 2 -💫Navigate to the Project Directory: Move into the project directory created during cloning.
 
-Replace <repository-url> with the actual URL of the repository.
+## ✨Step 3 -💫Install Dependencies: Run npm install to install the project dependencies.
 
-## ✨Step 2: Navigate to the Project Directory
-Move into the project directory:
+## ✨Step 4 -💫Start the Development Server: Launch the development server with npm start and access the app in your web browser at http://localhost:3000.
 
-# cd <project-directory>
-Replace <project-directory> with the name of the directory created during cloning.
+## ✨Step 5 - Enter Currency Code or Name:
+You will see a search bar where you can enter a currency code (e.g., SEK) or a currency name (e.g., Euro).
 
-## ✨Step 3: Install Dependencies
-Run the following command to install the project dependencies:
+## ✨Step 6- Perform the Search:
+Press the "Search🔍" button or hit Enter to retrieve information about the countries associated with the provided currency.
 
+## ✨Step 7 - Explore Country Information:
+Explore the country information displayed in a visually appealing grid format with details such as country name, capital, region, and population.
 
-# npm install
-This assumes you have Node.js and npm installed on your machine.
-
-## ✨Step 4: Start the Development Server
-Launch the development server with the following command:
-
-
-# npm start
-This will start the application and open it in your default web browser. If it doesn't open automatically, you can access it by navigating to http://localhost:3000 in your browser.
-
-# 🌐 Using the Currency Search  :-
-Enter Currency Code or Name--> Perform the Search
-Perform the Search--> Explore Country Information
-Explore Country Information --> Show More Details
-Show More Details --> Search Again
-
-
-## ✨Step 5: Use the Currency Search
-You will see a search bar where you can enter a currency code (e.g., SEK) or a currency name (e.g., Euro). Press the "Search🔍" button or hit Enter to retrieve information about the countries associated with the provided currency.
-
-Explore the country information displayed in a grid format with details such as country name, capital, region, and population.
-
-## ✨Step 6: Explore Additional Information
+## ✨Step 8 - Show More Details:
 Click on the "Show More Details" button to view additional information about the selected country, including official name, currency details, and flag/maps.
 
-## ✨Step 7: Search Again
-You can perform multiple searches by entering different currency codes or names and repeating the process.
+## ✨Step 9 - Search Again:
+Perform multiple searches by entering different currency codes or names and repeating the process.
+---
+# 🧑‍💻Implemented 
+🔍Search by Currency Code or Name: Enter a currency code (e.g., SEK) or a currency name (e.g., Euro) to find countries associated with that currency.
+
+💻Intuitive User Interface: A straightforward and clean UI makes it easy for users to navigate and perform searches effortlessly.
+
+🎛️Visual Grid Display: Country information is presented in a grid format with essential details such as country name, capital, region, and population.
+
+🏳️Additional Country Details: Explore more about a selected country by clicking on the "Show More Details" button. Access information like the official name, currency details, and view the country's flag and maps.
+
+🧑‍🏫Responsive Design: The web app is designed to provide an optimal viewing experience across various devices, ensuring accessibility for a broader audience.
+
+---
+
+# 🛠️ Technologies Used For:- 
+⭕React: The project is built using the React JavaScript library, ensuring a modular and efficient front-end development experience.
+
+⭕Tailwind CSS: Utilizing the utility-first CSS framework for styling, the app achieves a sleek and responsive design.
+
+⭕REST Countries API: The application fetches country-related data using the REST Countries API, making real-time information retrieval possible.
 
 ---
 
@@ -127,33 +125,6 @@ graph TD;
 HomePage-->ShowDetailPage
 
 ```
- # 🧑‍💻Features
-🔍Search by Currency Code or Name: Enter a currency code (e.g., SEK) or a currency name (e.g., Euro) to find countries associated with that currency.
-
-💻Intuitive User Interface: A straightforward and clean UI makes it easy for users to navigate and perform searches effortlessly.
-
-🎛️Visual Grid Display: Country information is presented in a grid format with essential details such as country name, capital, region, and population.
-
-🏳️Additional Country Details: Explore more about a selected country by clicking on the "Show More Details" button. Access information like the official name, currency details, and view the country's flag and maps.
-
-🧑‍🏫Responsive Design: The web app is designed to provide an optimal viewing experience across various devices, ensuring accessibility for a broader audience.
-
-# 🚀 Getting Started
-💫Clone the Repository: Use the provided repository URL to clone the project to your local machine.
-
-💫Navigate to the Project Directory: Move into the project directory created during cloning.
-
-💫Install Dependencies: Run npm install to install the project dependencies.
-
-💫Start the Development Server: Launch the development server with npm start and access the app in your web browser at http://localhost:3000.
-
-# 🛠️ Technologies Used
-⭕React: The project is built using the React JavaScript library, ensuring a modular and efficient front-end development experience.
-
-⭕Tailwind CSS: Utilizing the utility-first CSS framework for styling, the app achieves a sleek and responsive design.
-
-⭕REST Countries API: The application fetches country-related data using the REST Countries API, making real-time information retrieval possible.
-
 # 🌍 Future Enhancements
 
 🌐Currency Conversion: Implement a feature to convert currency values based on real-time exchange rates.
@@ -161,6 +132,7 @@ HomePage-->ShowDetailPage
 🌐User Authentication: Allow users to save preferences and access personalized features.
 
 🌐Localization: Support multiple languages for a more inclusive user experience.
+
 ---
 
 
