@@ -98,7 +98,7 @@ Launch the development server with the following command:
 # npm start
 This will start the application and open it in your default web browser. If it doesn't open automatically, you can access it by navigating to http://localhost:3000 in your browser.
 
-# 🌐 Using the Currency Search--> Enter Currency Code or Name
+# 🌐 Using the Currency Search  :-
 Enter Currency Code or Name--> Perform the Search
 Perform the Search--> Explore Country Information
 Explore Country Information --> Show More Details
