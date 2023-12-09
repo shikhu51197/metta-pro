@@ -1,0 +1,47 @@
+/* src/components/CurrencySearch.css */
+
+/* Style for the search form */
+form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the search input */
+  .form-control {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  /* Style for the search button */
+  .btn-outline-success {
+    cursor: pointer;
+  }
+  
+  /* Style for the cards container */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Style for individual cards */
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for card images */
+  .card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Style for card titles */
+  .card-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for card text */
+  .card-text {
+    color: #555;
+  }
+  
