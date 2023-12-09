@@ -71,42 +71,49 @@ Discover countries associated with specific currencies using our intuitive Curre
 
 ## 🚀 Getting Started
 
-# ✨Step 1: Clone the Repository
+## ✨Step 1: Clone the Repository
 Clone the project repository to your local machine using the following command:
 
 # 🧑‍💻git clone <repository-url>
 
 Replace <repository-url> with the actual URL of the repository.
 
-# ✨Step 2: Navigate to the Project Directory
+## ✨Step 2: Navigate to the Project Directory
 Move into the project directory:
 
 # cd <project-directory>
 Replace <project-directory> with the name of the directory created during cloning.
 
-# ✨Step 3: Install Dependencies
+## ✨Step 3: Install Dependencies
 Run the following command to install the project dependencies:
 
 
 # npm install
 This assumes you have Node.js and npm installed on your machine.
 
-# ✨Step 4: Start the Development Server
+## ✨Step 4: Start the Development Server
 Launch the development server with the following command:
 
 
 # npm start
 This will start the application and open it in your default web browser. If it doesn't open automatically, you can access it by navigating to http://localhost:3000 in your browser.
 
-# ✨Step 5: Use the Currency Search
+# 🌐 Using the Currency Search--> Enter Currency Code or Name
+Enter Currency Code or Name--> Perform the Search
+Perform the Search--> Explore Country Information
+Explore Country Information --> Show More Details
+Show More Details --> Search Again
+
+
+## ✨Step 5: Use the Currency Search
 You will see a search bar where you can enter a currency code (e.g., SEK) or a currency name (e.g., Euro). Press the "Search🔍" button or hit Enter to retrieve information about the countries associated with the provided currency.
 
 Explore the country information displayed in a grid format with details such as country name, capital, region, and population.
 
-# ✨Step 6: Explore Additional Information
+## ✨Step 6: Explore Additional Information
 Click on the "Show More Details" button to view additional information about the selected country, including official name, currency details, and flag/maps.
 
-# ✨Step 7: Search Again
+## ✨Step 7: Search Again
 You can perform multiple searches by entering different currency codes or names and repeating the process.
 
 ---
@@ -117,14 +124,6 @@ You can perform multiple searches by entering different currency codes or names 
 graph TD;
  App-->HomePage
 HomePage-->ShowDetailPage
-
-# 🌐 Using the Currency Search--> Enter Currency Code or Name
-Enter Currency Code or Name--> Perform the Search
-Perform the Search--> Explore Country Information
-Explore Country Information --> Show More Details
-Show More Details --> Search Again
-
-
 
 ```
 
