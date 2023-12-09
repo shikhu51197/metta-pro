@@ -118,6 +118,12 @@ graph TD;
  App-->HomePage
 HomePage-->ShowDetailPage
 
+# 🌐 Using the Currency Search--> Enter Currency Code or Name
+Enter Currency Code or Name--> Perform the Search
+Perform the Search--> Explore Country Information
+Explore Country Information --> Show More Details
+Show More Details --> Search Again
+
 
 
 ```
