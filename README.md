@@ -3,7 +3,7 @@
 > 
 <br>
 
-[![Deployed App Vercel Link](https://img.shields.io/badge/Deployed_App_Vercel_Link-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://metta-pro.vercel.app/)
+[![Deployed App Vercel Link](https://img.shields.io/badge/Deployed_App_Vercel_Link-FFF?style=for-the-badge&logo=ko-fi&logoColor=black)](https://metta-pro.vercel.app/)
 
 
 
