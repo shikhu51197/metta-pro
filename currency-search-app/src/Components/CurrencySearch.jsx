@@ -32,13 +32,16 @@ const CurrencySearch = () => {
       } else {
         setError(`Error: ${response.status}`);
         setShowErrorGif(true);
+   
       }
     } catch (error) {
       setError("Error fetching data");
       setShowErrorGif(true);
+ 
     } finally {
       setLoading(false);
       setShowGif(false);
+   
     }
   };
   const handleShowDetails = (country) => {
@@ -92,7 +95,8 @@ const CurrencySearch = () => {
   </div>
 )}
 
-<div className="container border border-solid border-gray-700 mx-auto p-5  bg-gradient-to-r from-teal-500 to-indigo-500 rounded-md shadow-md">
+
+{showErrorGif && showErrorGif ? null :<div className="container border border-solid border-gray-700 mx-auto p-5  bg-gradient-to-r from-teal-500 to-indigo-500 rounded-md shadow-md">
   <h2 className="text-2xl font-bold mb-20 text-center p-5 bg-black text-white">
    Each Country Info
   </h2>
@@ -127,9 +131,10 @@ const CurrencySearch = () => {
               </div>
             ))}
           </div>
-        </div>{" "}
+        </div>}
+
       </div>
-      {/* Show More Details Modal */}
+      
       {showDetails && selectedCountry && (
         <div className="fixed inset-0 z-10 overflow-y-auto bg-black bg-opacity-50 flex items-center justify-center">
           <div className="bg-white p-8 max-w-2xl mx-auto rounded-md shadow-md">
