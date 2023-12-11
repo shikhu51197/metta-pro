@@ -1,47 +1,104 @@
-/* src/components/CurrencySearch.css */
 
-/* Style for the search form */
 form {
-    display: flex;
-    margin-bottom: 20px;
-  }
-  
-  /* Style for the search input */
-  .form-control {
-    flex: 1;
-    margin-right: 10px;
-  }
-  
-  /* Style for the search button */
-  .btn-outline-success {
-    cursor: pointer;
-  }
-  
-  /* Style for the cards container */
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  /* Style for individual cards */
-  .card {
-    margin-bottom: 20px;
-  }
-  
-  /* Style for card images */
-  .card-img-top {
-    max-height: 200px;
-    object-fit: cover;
-  }
-  
-  /* Style for card titles */
-  .card-title {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-  }
-  
-  /* Style for card text */
-  .card-text {
-    color: #555;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+
+.form-control {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+.btn-search {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.btn-search:hover {
+  background-color: #45a049;
+}
+
+
+.loader-img,
+.error-img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.card {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+
+.card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+
+.card-content {
+  padding: 20px;
+}
+
+/* Style for card titles */
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Style for card text */
+.card-text {
+  color: #555;
+  font-size: 16px;
+}
+
+/* Style for the show more button */
+.btn-show-more {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #5e35b1;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-show-more:hover {
+  background-color: #4527a0;
+}
